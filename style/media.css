@@ -1,0 +1,167 @@
+@media (max-width: 768px) {
+    .container {
+        width: 98%;
+    }
+}
+
+@media (max-width: 768px) {
+    .gamburger {
+        display: block;
+        position: fixed;
+    }
+}
+
+@media (max-width: 768px) {
+    .container__nav {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .about__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .about__info {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .about__cards {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .about__card {
+        width: 98%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .card__text {
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .services__description {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .services__cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 768px) {
+    .services__description-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .services__button {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .get-in__title {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .container_newsletter {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .sign {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .sign-up {
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .services__button-signup {
+        margin-top: 0.1em;
+        width: 88%;
+        margin-bottom: 2em;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer__info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .company {
+        width: 95%;
+    }
+}
+
+@media (max-width: 768px) {
+    .links {
+        width: 95%;
+    }
+}
+
+@media (max-width: 768px) {
+    .contact {
+        width: 95%;
+    }
+}
+
+@media (max-width: 768px) {
+    .social__icons {
+        width: 95%;
+    }
+}
+
+@media (max-width: 768px) {
+    .copyright__text {
+        width: 90%;
+    }
+}
