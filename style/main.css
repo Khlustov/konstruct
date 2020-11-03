@@ -98,7 +98,7 @@ h3 {
     justify-content: space-between;
 }
 
-.header__logo-black {
+.header__logo--black {
     margin-top: 1.5em;
     padding: 0;
     font-size: calc(20px + 0.2vw);
@@ -115,7 +115,11 @@ h3 {
     display: inline;
 }
 
-.nav-button {
+.nav__item {
+    list-style-type: none;
+}
+
+.nav__link {
     margin: 0 0.7em;
     font-family: Open Sans;
     font-size: calc(12px + 0.2vw);
@@ -129,14 +133,15 @@ h3 {
     color: #48555B;
 }
 
-.nav-button:hover {
+.nav__link:hover {
     color: #00A4E5;
+    transition: .3s;
 }
 
 .gamburger {
     position: absolute;
-    right: 20px;
-    top: 20px;
+    right: 15px;
+    top: 15px;
     display: none;
     width: 20px;
     height: 4px;
@@ -254,15 +259,15 @@ h3 {
     box-sizing: border-box;
 }
 
-.about__card-plan {
+.about__card--plan {
     background: url(../img/plan-card-background.png) center no-repeat;
 }
 
-.about__card-manage {
+.about__card--manage {
     background: url(../img/manage-card-background.png) center no-repeat;
 }
 
-.about__card-build {
+.about__card--build {
     background: url(../img/build-card-background.png) center no-repeat;
 }
 
@@ -307,18 +312,12 @@ h3 {
     color: #48555B;
 }
 
-.services__button {
-    width: 15em;
-    height: 1em;
+.button {
     margin-top: 3.5em;
-    padding: 1em 1em;
-    text-decoration: none;
+    width: 17em;
+    height: 2em;
     border-radius: 2px;
-    background-color: #00A4E5;
-}
-
-.button__text {
-    margin: 0 auto;    
+    background-color: #00A4E5;    
     font-family: Open Sans;
     font-size: calc(13px + 0.2vw);
     font-style: normal;
@@ -327,7 +326,13 @@ h3 {
     text-align: center;
     text-transform: uppercase;
     color: #FFFFFF;
+    border-style: none;
 }
+
+.button:hover {
+    box-shadow: 2px 2px 5px 2px #48555B;
+    transition: .3s;
+} 
 
 .services__cards {
     display: flex;
@@ -404,7 +409,7 @@ h3 {
     color: #48555B
 }
 
-.services__button-get {
+.button--get {
     margin-top: 0.1em;
     margin-bottom: 8em;
 }
@@ -445,8 +450,9 @@ h3 {
     letter-spacing: 0.5px;
 }
 
-.services__button-signup {
+.button--signup {
     margin-top: 2em;
+    height: 3em;
 }
 
 /*---FOOTER---*/
@@ -504,7 +510,6 @@ h3 {
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     flex-wrap: wrap;
     list-style-type: none;
 }

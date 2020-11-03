@@ -14,6 +14,7 @@
         <!--HEADER-->
         <header class="header">
             <div class="container container__header">
+                <div class="gamburger"></div>
                 <h1>Konstruct</h1>
                 <h2 class="header__logo">Konstru<span class="triangle"></span>t</h2>
                 <h3>Partner with konstruct</h3>
@@ -21,25 +22,22 @@
                 <p class="header__scroll">Scroll down</p>
             </div>
         </header>
+         <!--NAVIGATION-->
+         <nav class="nav">
+            <div class="container container__nav">
+                <h2 class="header__logo header__logo--black">Konstru<span class="triangle"></span>t</h2>
+                <ul class="nav-links">
+                    <li class="nav__item"><a class="nav__link" href="#">Home</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#">About</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#">Services</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#">Work</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
         <!--MAIN-->
         <main class="main">
-            <!--NAVIGATION-->
-            <nav class="nav">
-                <div class="gamburger"></div>
-                <div class="container container__nav">
-                    <h2 class="header__logo header__logo-black">Konstru<span class="triangle"></span>t</h2>
-                    <ul class="nav-links">
-                        <li class="nav"><a class="nav-button" href="">Home</a></li>
-                        <li class="nav"><a class="nav-button" href="">About</a></li>
-                        <li class="nav"><a class="nav-button" href="">Services</a></li>
-                        <li class="nav"><a class="nav-button" href="">Work</a></li>
-                        <li class="nav"><a class="nav-button" href="">Contact</a></li>
-                    </ul>
-                </div>
-            </nav>
-        </main>
-        <!--ABOUT-->
-        <section class="about">
+           <!--ABOUT-->
             <div class="container container__about">
                 <div class="about__description">
                     <h4 class="section__title">Our story</h4>
@@ -51,19 +49,19 @@
                         <span class="about__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</span>
                     </div>
                     <div class="about__cards">
-                        <div class="about__card about__card-plan">
+                        <div class="about__card about__card--plan">
                             <p class="card__text">We plan</p>
                         </div>
-                        <div class="about__card about__card-manage">
+                        <div class="about__card about__card--manage">
                             <p class="card__text">We manage</p>
                         </div>
-                        <div class="about__card about__card-build">
+                        <div class="about__card about__card--build">
                             <p class="card__text">We build</p>
                         </div>
                     </div>
                 </div>                   
-            </div>
-        </section>
+            </div>       
+        </main>        
         <!--SERVICES-->
         <section class="services">
             <div class="container container__services">
@@ -74,21 +72,21 @@
                     </div>
                     <div class="services__description-info">
                         <p class="story__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
-                        <a href="" class="services__button"><p class="button__text">All services</p></a>
+                        <button class="button">All services</button>
                     </div>
                 </div>
                 <div class="services__cards">
-                    <div class="services__card services__card-project">
+                    <div class="services__card services__card--project">
                         <div class="project__icon"></div>
                         <p class="card__title">Project and construction management</p>
                         <span class="card__subtitle">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</span>
                     </div>
-                    <div class="services__card services__card-structure">
+                    <div class="services__card services__card--structure">
                         <div class="structure__icon"></div>
                         <p class="card__title">Project and construction management</p>
                         <span class="card__subtitle">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</span>
                     </div>
-                    <div class="services__card services__card-factory">
+                    <div class="services__card services__card--factory">
                         <div class="factory__icon"></div>
                         <p class="card__title">Project and construction management</p>
                         <span class="card__subtitle">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</span>
@@ -100,7 +98,7 @@
         <section class="get-in">
             <div class="container container__get-in">
                 <h5 class="get-in__title">Want to build something amazing?</h5>
-                <a href="" class="services__button services__button-get"><p class="button__text">Get in touch</p></a>
+                <button class="button button--get">Get In Touch</button>
             </div>
         </section>
         <!--NEWSLETTER-->
@@ -109,7 +107,7 @@
                 <p class="news">Newsletter Signup</p>
                 <div class="sign">
                     <input class="sign-up" type="e-mail" name="e-mail" placeholder="email">
-                    <a href="" class="services__button services__button-signup"><p class="button__text">Signup</p></a>
+                    <button class="button button--signup">Signup</button>
                 </div>
             </div>
         </section>
